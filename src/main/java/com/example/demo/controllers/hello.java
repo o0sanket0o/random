@@ -11,4 +11,8 @@ public class hello {
         System.out.println("Reuqest is made at the end point.");
         return "Hello World!";
     }
+    @GetMapping("/another")
+    public String sayAnotherHello(){
+        return "Another hello.";
+    }
 }
