@@ -28,4 +28,4 @@ jobs:
           app-name: 'powerShellWA'
           slot-name: 'production'
           publish-profile: ${{ secrets.AzureAppService_PublishProfile_1f7ccbdfdd6d405ea918773349d7e508 }}
-          package: '${{ github.workspace }}/build/libs/*.jar'
+          package: '${{ github.workspace }}/build/libs/demo-0.0.1-SNAPSHOT.jar'
